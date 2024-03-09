@@ -1,0 +1,60 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.background {
+    /* width: 628px;
+    height: 465px; */
+    width: 1256px; /* Doubled width */
+    height: 930px; /* Doubled height */
+    position: absolute;
+    background-image: url('vinyl.png');
+    background-size: cover;
+    z-index: -1;
+  }
+
+.image-box {
+    /* width: 382px;
+    height: 391px; */
+    width: 787px; /* Doubled width */
+    height: 782px; /* Doubled height */
+    border: 2px solid #333;
+    border-radius: 20px; /* Add border radius for smoother edges */
+    overflow: hidden;
+    margin-bottom: 20px;
+    position: relative;
+    bottom: -46px;
+    /* left: -17px;
+    top: 24px; */
+    left: -38px;
+    top: 24px;
+}
+
+.image-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.buttons {
+    display: flex;
+}
+
+.buttons button {
+    padding: 10px 20px;
+    margin: 0 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
